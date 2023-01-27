@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Table, Container, Row, Col, Button } from 'react-bootstrap';
+import { Table, Container, Row, Col, Spinner, Alert } from 'react-bootstrap';
 import axios from 'axios';
 import _ from 'lodash';
 
@@ -10,21 +10,40 @@ function App() {
 
   // States
   const [maxTransactions, setMaxTransactions] = useState([]);
-
+  const [errorMessages, setErrorMessages] = useState()
+  
+  // Effects
+  useEffect(() => {
+    fetchData()
+  }, []);
   //------------------------------------------
   // HANDLERS & AUX FUNCTIONS
   //------------------------------------------
 
-  const onClickFetchData = async (e) => {
+  const fetchData = async () => {
+
+    // NOTE: A proxy URL to BUDA API is set up in the package.json file to avoid 
+    // CORS error when fetching data:
+    
+    // {
+    //   ...,
+    //   "proxy": "https://www.buda.com/api/v2",
+    //   ...
+    // }
+
     let { data: dataMarkets } = await axios.get('/markets');
     let { markets } = dataMarkets;
     let timestamp_24hrs_ago = _.now() - 24 * 60 * 60 * 1000;
     let maxTransactionsToUpdate = [];
 
+
     for (let eachMarket of markets) {
       let { data: dataTradesForMarket } = await axios.get(
         `/markets/${eachMarket.id}/trades?timestamp=${timestamp_24hrs_ago}`
-      );
+      ).catch((err)=>{
+        console.log(err)
+        setErrorMessages('Error: Too many requests. Please refresh page in 1 minute')
+      });
       let { trades: tradesForMarket } = dataTradesForMarket;
       let { entries: tradeEntriesForMarket } = tradesForMarket;
       let maxTransactionOfMarket = {
@@ -39,23 +58,26 @@ function App() {
       maxTransactionOfMarket.market = tradesForMarket.market_id;
 
       for (let eachTradeEntry of tradeEntriesForMarket) {
-        let transaction = eachTradeEntry[1] * eachTradeEntry[2];
+        
+        let timestamp = eachTradeEntry[0];
+        let amount = Number(eachTradeEntry[1]).toFixed(2)
+        let price = Number(eachTradeEntry[2]).toFixed(2)
+        let transaction = amount*price;
+        let direction = eachTradeEntry[3];
 
         if (transaction > maxTransactionOfMarket.maxTransaction) {
           maxTransactionOfMarket.maxTransaction = transaction;
-          maxTransactionOfMarket.timestamp = eachTradeEntry[0];
-          maxTransactionOfMarket.amount = eachTradeEntry[1];
-          maxTransactionOfMarket.price = eachTradeEntry[2];
-          maxTransactionOfMarket.direction = eachTradeEntry[3];
+          maxTransactionOfMarket.timestamp = timestamp;
+          maxTransactionOfMarket.amount = amount;
+          maxTransactionOfMarket.price = price;
+          maxTransactionOfMarket.direction = direction;
         }
       }
       maxTransactionsToUpdate.push(maxTransactionOfMarket);
-      setMaxTransactions([...maxTransactionsToUpdate]);
     }
+    setMaxTransactions([...maxTransactionsToUpdate]);
   };
-  const onClickResetData = (e) => {
-    setMaxTransactions([]);
-  };
+
 
   //------------------------------------------
   // JSX
@@ -65,54 +87,55 @@ function App() {
     <Container className="mt-3">
       <h2> BUDA Prices </h2>
       <hr />
-      <div className="mb-4">
-        <span> Fetch data: </span>{' '}
-        <Button
-          variant="success"
-          size="sm"
-          className="py-0"
-          onClick={onClickFetchData}
-        >
-          Click!
-        </Button>{' '}
-        <Button
-          variant="danger"
-          size="sm"
-          className="py-0"
-          onClick={onClickResetData}
-        >
-          Reset!
-        </Button>
-      </div>
 
-      <h5 className="mb-1">Transaction greatest operation last 24 Hours (for each market): </h5>
+      <h2 className="bg-success text-white p-3">Welcome!</h2>
+
+      <h5 className="mt-4 mb-3">Transaction greatest operations last 24 Hours (each market): </h5>
       <Row className="align-items-center">
         <Col xs={8}>
-          <Table striped bordered hover>
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Market</th>
-                <th>Amount</th>
-                <th>Price</th>
-                <th>Max Transaction</th>
-                <th>Buy/Sell</th>
-              </tr>
-            </thead>
-            <tbody>
-              {maxTransactions.length > 0 &&
-                maxTransactions.map((item, idx) => (
-                  <tr key={idx}>
-                    <td>{idx}</td>
-                    <td>{item.market}</td>
-                    <td>{item.amount}</td>
-                    <td>{item.price}</td>
-                    <td>{item.maxTransaction}</td>
-                    <td>{item.direction}</td>
-                  </tr>
-                ))}
-            </tbody>
-          </Table>
+          { (maxTransactions.length !== 0)
+            ?
+            <Table striped bordered hover>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Market</th>
+                  <th>Amount</th>
+                  <th>Price</th>
+                  <th>Max Transaction</th>
+                  <th>Buy/Sell</th>
+                </tr>
+              </thead>
+              <tbody>
+                {
+                  maxTransactions.map((item, idx) => (
+                    <tr key={idx}>
+                      <td>{idx}</td>
+                      <td>{item.market}</td>
+                      <td>{item.amount}</td>
+                      <td>$ {new Intl.NumberFormat('en-US').format(item.price)}</td>
+                      <td>$ {new Intl.NumberFormat('en-US').format(item.maxTransaction)}</td>
+                      <td>{item.direction}</td>
+                    </tr>
+                  ))}
+              </tbody>
+            </Table>
+            :
+            <>
+            { (!errorMessages)
+              ?
+              <div className="d-flex align-items-center">
+                <Spinner animation="border" />
+                <strong className="mx-3 mb-0">Loading Data...</strong>
+              </div>
+              :
+              <Alert variant="danger">
+                {errorMessages}
+              </Alert>
+            }
+            </>
+          }
+          
         </Col>
       </Row>
     </Container>
