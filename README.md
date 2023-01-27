@@ -49,7 +49,7 @@ The code extract the largest transactions performed in [Buda](https://www.buda.c
 
 ## Technologies
 
-The following technologies were used for the implementation of this project:
+The following technologies are used for the implementation of this project:
 
  [![NodeJS][node-js-img]][node-js-url]
  [![ReactJS][react-js-img]][react-js-url]
@@ -70,9 +70,9 @@ The following technologies were used for the implementation of this project:
 <!-- ----------------------------------------------------------------------- -->
 ### Prerequisites
 
-Node Package Manager(NPM) is required to install and run this application.
+Node Package Manager (NPM) is required to install and run this application.
 
-- Check if NPM is already installed in your local environment run:
+- Check if NPM is already installed in your local environment:
 
   ```sh
   npm --version
@@ -171,7 +171,7 @@ Samuel Valdes Gutierrez
 
 ## Support
 
-Whether you use this project to learn something or if you just like my work, please consider supporting it by buying me a coffee or so. This aid will help me to dedicate more time to create and developed well design open-source projects.
+Whether you use this work to learn something or if you just like my work, please consider supporting it by buying me a coffee or so. This aid will help me to dedicate more time to create and developed well design open-source projects.
 
 [![Paypal][paypal-img]][paypal-url]
 [![Ko-Fi][ko-fi-img]][ko-fi-url]
