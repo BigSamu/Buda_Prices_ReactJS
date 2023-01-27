@@ -141,6 +141,8 @@ After succesfull installation, you will be able to check the WebApp in any brows
 
 lipsum
 
+<p align="right">(<a href="#back-to-top">back to top</a>)</p>
+
 ---
 
 <!-- *********************************************************************** -->
