@@ -20,7 +20,7 @@
 <!-- I) ABOUT THE PROJECT -->
 ## About The Project
 
-Simple ReactJS application that fetch data from [Buda API](https://api.buda.com/en/). The code extract the largest transactions performed in the last 24 hours for each cryptocurrency market. The results are presented in a table.
+Simple ReactJS web application that fetch data from [Buda API](https://api.buda.com/en/). The code extract the largest transactions performed in the last 24 hours for each cryptocurrency market. The results are presented in a table.
 
 <p align="center">
   <img src="images/project-animation.gif" alt="animated" width="75%"/>
@@ -47,16 +47,17 @@ The following technologies were used for the implementation of this project:
 
 ## Getting Started
 
-To get a copy of this project and run ot in your local environment, follow the  steps listed below.
 ### Prerequisites
 
-To run this project Node Package Manager(NPM) is required.
+Node Package Manager(NPM) is required to install and run this application.
 
-* To check if NPM is already installed in your local environment run:
+* Check if NPM is already installed in your local environment run:
   ```sh
   npm --version
   ```
-* If NPM is not installed then install last version of this packed manager:
+  _(Example of expected output: 9.4.0)_
+
+* If not, install last version of this package manager:
   ```sh
   npm install npm@latest -g
   ```
@@ -65,7 +66,7 @@ To run this project Node Package Manager(NPM) is required.
 
 ### Installation
 
-Below installation instructions to setup the app in your local environment.
+To get a copy of this project and run it in your local environment, follow the steps listed below.
 
 1. Clone the repo
    ```sh
@@ -79,10 +80,14 @@ Below installation instructions to setup the app in your local environment.
    ```sh
    npm install
    ```
+4. Run application
+    ```sh
+   npm run
+   ```
 
 ### Usage
 
-After installing the necessary dependencies you may launch the application by running `npm start`. You will be able to check the WebApp in any local browser typying in the URL bar `localhost: 3000`
+After succesfull installation, you will be able to check the WebApp in any local browser visiting the URL address: [localhost: 3000](http://localhost:3000/)
 
 
 
