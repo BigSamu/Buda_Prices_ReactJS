@@ -1,5 +1,6 @@
 <a name="back-to-top"></a>
 
+<!-- omit in toc -->
 # Buda Prices - ReactJS #
 
 A simple ReactJS web application that fetch data from [Buda API](https://api.buda.com/en/), an online Chilean cryptocurrency exchange market.
@@ -10,19 +11,18 @@ A simple ReactJS web application that fetch data from [Buda API](https://api.bud
 <!-- 0) TABLE OF CONTENTS -->
 <!-- *********************************************************************** -->
 
+<!-- omit in toc -->
 ## Table of Contents
 
-- [Buda Prices - ReactJS](#buda-prices---reactjs)
-  - [Table of Contents](#table-of-contents)
-  - [About The Project](#about-the-project)
-  - [Technologies](#technologies)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Usage](#usage)
-  - [Contact Me](#contact-me)
-  - [Support](#support)
-  - [License](#license)
+- [About The Project](#about-the-project)
+- [Technologies](#technologies)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [Contact Me](#contact-me)
+- [Support](#support)
+- [License](#license)
 
 ---
 
