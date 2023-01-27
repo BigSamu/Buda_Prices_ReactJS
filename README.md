@@ -50,8 +50,13 @@ The following technologies were used for the implementation of this project:
 To get a copy of this project and run ot in your local environment, follow the  steps listed below.
 ### Prerequisites
 
-To run this project Node Package Manager is required. To check if npm
-* npm
+To run this project Node Package Manager(NPM) is required.
+
+* To check if NPM is already installed in your local environment run:
+  ```sh
+  npm --version
+  ```
+* If NPM is not installed then install last version of this packed manager:
   ```sh
   npm install npm@latest -g
   ```
@@ -64,7 +69,11 @@ Below installation instructions to setup the app in your local environment.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/BigSamu/Buda_Prices_ReactJS.git
+   ```
+   2. Go into the repository
+   ```sh
+   cd Buda_Prices_ReactJS
    ```
 2. Install required NPM packages or dependencies
    ```sh
