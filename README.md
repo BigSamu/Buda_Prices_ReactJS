@@ -12,16 +12,17 @@ A simple ReactJS web application that fetch data from [Buda API](https://api.bud
 
 ## Table of Contents
 
-- [About The Project](#about-the-project)
-- [Technologies](#technologies)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Usage](#usage)
-- [Acknowledgements](#acknowledgements)
-- [Contact Me](#contact-me)
-- [Support](#support)
-- [License](#license)
+- [Buda Prices - ReactJS](#buda-prices---reactjs)
+  - [Table of Contents](#table-of-contents)
+  - [About The Project](#about-the-project)
+  - [Technologies](#technologies)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Usage](#usage)
+  - [Contact Me](#contact-me)
+  - [Support](#support)
+  - [License](#license)
 
 ---
 
@@ -137,13 +138,13 @@ After succesfull installation, you will be able to check the WebApp in any brows
 <!-- V) ACKNOWNLEDGEMENTS -->
 <!-- *********************************************************************** -->
 
-## Acknowledgements
+<!-- ## Acknowledgements
 
 lipsum
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
----
+--- -->
 
 <!-- *********************************************************************** -->
 <!-- V) CONTACT ME -->
