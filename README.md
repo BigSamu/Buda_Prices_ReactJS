@@ -2,22 +2,29 @@
 
 # Buda Prices - ReactJS #
 
-
+<!-- *********************************************************************** -->
 <!-- 0) TABLE OF CONTENTS -->
-## Table of Contents:
+<!-- *********************************************************************** -->
 
-  - [About The Project](#about-the-project)
-  - [Technologies](#technologies)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-  - [Acknowledgments](#acknowledgments)
-  - [Contact Me](#contact-me)
-  - [Support](#support)
-  - [License](#license)
+## Table of Contents
 
+- [About The Project](#about-the-project)
+- [Technologies](#technologies)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [Acknowledgments](#acknowledgments)
+- [Contact Me](#contact-me)
+- [Support](#support)
+- [License](#license)
 
+---
+
+<!-- *********************************************************************** -->
 <!-- I) ABOUT THE PROJECT -->
+<!-- *********************************************************************** -->
+
 ## About The Project
 
 Simple ReactJS web application that fetch data from [Buda API](https://api.buda.com/en/). The code extract the largest transactions performed in the last 24 hours for each cryptocurrency market. The results are presented in a table.
@@ -26,13 +33,16 @@ Simple ReactJS web application that fetch data from [Buda API](https://api.buda.
   <img src="images/project-animation.gif" alt="animated" width="75%"/>
 </p>
 
-
 <!-- Demo available in following [link](#) -->
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
+---
 
+<!-- *********************************************************************** -->
 <!-- II) TECHNOLOGIES -->
+<!-- *********************************************************************** -->
+
 ## Technologies
 
 The following technologies were used for the implementation of this project:
@@ -43,58 +53,76 @@ The following technologies were used for the implementation of this project:
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+---
+
+<!-- *********************************************************************** -->
+<!-- III) GETTING STARTED -->
+<!-- *********************************************************************** -->
 
 ## Getting Started
 
+<!-- 3.1) Prerequisites -->
 ### Prerequisites
 
 Node Package Manager(NPM) is required to install and run this application.
 
-* Check if NPM is already installed in your local environment run:
+- Check if NPM is already installed in your local environment run:
+
   ```sh
   npm --version
   ```
+
   _(Example of expected output: 9.4.0)_
 
-* If not, install last version of this package manager:
+- If not, install last version of this package manager:
+
   ```sh
   npm install npm@latest -g
   ```
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
+<!-- 3.2) Installation -->
 ### Installation
 
 To get a copy of this project and run it in your local environment, follow the steps listed below.
 
 1. Clone the repo
+
    ```sh
    git clone https://github.com/BigSamu/Buda_Prices_ReactJS.git
    ```
+
 2. Go into the repository
+
    ```sh
    cd Buda_Prices_ReactJS
    ```
+
 3. Install required NPM packages or dependencies
+
    ```sh
    npm install
    ```
+
 4. Run application
+
     ```sh
    npm run
    ```
 
+<!-- 3.3) Usage -->
 ### Usage
 
-After succesfull installation, you will be able to check the WebApp in any local browser visiting the URL address: [localhost: 3000](http://localhost:3000/)
-
-
+After succesfull installation, you will be able to check the WebApp in any browser by visiting the following URL address: [localhost: 3000](http://localhost:3000/)
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
 ---
 
+<!-- *********************************************************************** -->
+
+<!-- *********************************************************************** -->
 ## Contact Me
 
 <!-- ![GitHub Follow](https://img.shields.io/github/followers/BigSamu.svg?style=social&label=Follow)
@@ -141,11 +169,6 @@ Developed with ❤️ in Chile 🇨🇱
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-
-[project-screenshot]: images/project-animation.gif
-
-[next-js-img]: https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white
-[next-js-url]: https://nextjs.org/
 [react-js-img]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
 [react-js-url]: https://reactjs.org/
 
@@ -154,7 +177,6 @@ Developed with ❤️ in Chile 🇨🇱
 
 [bootstrap-img]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
 [bootstrap-url]: https://getbootstrap.com
-
 
 <!-- Contact -->
 <!-- Gmail -->
@@ -169,7 +191,6 @@ Developed with ❤️ in Chile 🇨🇱
 <!-- HackerRank -->
 [hackerrank-img]: https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white
 [hackerrank-url]: https://www.hackerrank.com/BigSamu
-
 
 <!-- Paypal -->
 [paypal-img]:https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white
