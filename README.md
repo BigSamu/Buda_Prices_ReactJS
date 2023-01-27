@@ -24,6 +24,8 @@ A simple ReactJS web application that fetch data from [Buda API](https://api.bud
 - [Support](#support)
 - [License](#license)
 
+<p align="right">(<a href="#back-to-top">back to top</a>)</p>
+
 ---
 
 <!-- *********************************************************************** -->
