@@ -115,7 +115,7 @@ Samuel Valdes Gutierrez
 
 ## Support
 
-Whether you use this project to learn something or if you just like my work, please consider supporting it by buying me a coffee so. This aid will help me to dedicate more time to developed and design well design open-source projects.
+Whether you use this project to learn something or if you just like my work, please consider supporting it by buying me a coffee or so. This aid will help me to dedicate more time to create and developed well design open-source projects.
 
 [![Paypal][paypal-img]][paypal-url]
 [![Ko-Fi][ko-fi-img]][ko-fi-url]
@@ -129,7 +129,7 @@ Whether you use this project to learn something or if you just like my work, ple
 
 This project is licensed under the terms of the MIT license.
 
->You can check out the full license [here](LICENSE)
+>You can check out the full license [here](/Buda_Prices_ReactJS/LICENSE.md)
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
