@@ -84,6 +84,7 @@ Node Package Manager(NPM) is required to install and run this application.
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
+
 <!-- 3.2) Installation -->
 ### Installation
 
@@ -112,6 +113,8 @@ To get a copy of this project and run it in your local environment, follow the s
     ```sh
    npm run
    ```
+
+<p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
 <!-- 3.3) Usage -->
 ### Usage
