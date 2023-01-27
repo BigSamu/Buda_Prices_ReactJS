@@ -3,7 +3,7 @@
 # Buda Prices - ReactJS #
 
 
-<!-- TABLE OF CONTENTS -->
+<!-- 0) TABLE OF CONTENTS -->
 ## Table of Contents:
 
   - [About The Project](#about-the-project)
@@ -17,10 +17,10 @@
   - [License](#license)
 
 
-<!-- ABOUT THE PROJECT -->
+<!-- I) ABOUT THE PROJECT -->
 ## About The Project
 
-Simple ReactJS application that fetch data from [Buda API](https://api.buda.com/en/). The code extract the largest transactions performed in the last 24 hours dor each cryptocurrency market. The results are presented in a table.
+Simple ReactJS application that fetch data from [Buda API](https://api.buda.com/en/). The code extract the largest transactions performed in the last 24 hours for each cryptocurrency market. The results are presented in a table.
 
 <p align="center">
   <img src="images/project-animation.gif" alt="animated" width="75%"/>
@@ -31,9 +31,11 @@ Simple ReactJS application that fetch data from [Buda API](https://api.buda.com/
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
+
+<!-- II) TECHNOLOGIES -->
 ## Technologies
 
-The following technologies were used for this project:
+The following technologies were used for the implementation of this project:
 
  [![NodeJS][node-js-img]][node-js-url]
  [![ReactJS][react-js-img]][react-js-url]
@@ -45,14 +47,10 @@ The following technologies were used for this project:
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-<p align="right">(<a href="#back-to-top">back to top</a>)</p>
-
+To get a copy of this project and run ot in your local environment, follow the  steps listed below.
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+To run this project Node Package Manager is required. To check if npm
 * npm
   ```sh
   npm install npm@latest -g
@@ -62,21 +60,22 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Below installation instructions to setup the app in your local environment.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
-3. Install NPM packages
+2. Install required NPM packages or dependencies
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+
+### Usage
+
+After installing the necessary dependencies you may launch the application by running `npm start`. You will be able to check the WebApp in any local browser typying in the URL bar `localhost: 3000`
+
+
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
@@ -102,7 +101,7 @@ Samuel Valdes Gutierrez
 
 ## Support
 
-If you want to support my work, I would really apreciate it!
+Whether you use this project to learn something or if you just like my work, please consider supporting it by buying me a coffee so. This aid will help me to dedicate more time to developed and design well design open-source projects.
 
 [![Paypal][paypal-img]][paypal-url]
 [![Ko-Fi][ko-fi-img]][ko-fi-url]
@@ -114,7 +113,9 @@ If you want to support my work, I would really apreciate it!
 
 ## License
 
-Distributed under the MIT License
+This project is licensed under the terms of the MIT license.
+
+>You can check out the full license [here](LICENSE)
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
