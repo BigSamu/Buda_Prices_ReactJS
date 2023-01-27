@@ -71,11 +71,11 @@ Below installation instructions to setup the app in your local environment.
    ```sh
    git clone https://github.com/BigSamu/Buda_Prices_ReactJS.git
    ```
-   2. Go into the repository
+2. Go into the repository
    ```sh
    cd Buda_Prices_ReactJS
    ```
-2. Install required NPM packages or dependencies
+3. Install required NPM packages or dependencies
    ```sh
    npm install
    ```
