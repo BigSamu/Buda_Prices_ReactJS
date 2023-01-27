@@ -18,7 +18,7 @@ A simple ReactJS web application that fetch data from [Buda API](https://api.bud
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Usage](#usage)
-- [Acknowledgments](#acknowledgments)
+- [Acknowledgements](#acknowledgments)
 - [Contact Me](#contact-me)
 - [Support](#support)
 - [License](#license)
