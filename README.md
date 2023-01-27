@@ -173,7 +173,7 @@ Samuel Valdes Gutierrez
 
 ## Support
 
-Whether you use this work to learn something or if you just like my work, please consider supporting it by buying me a coffee or so. This aid will help me to dedicate more time to create and developed well design open-source projects.
+Whether you use this work to learn something or if you just like my work, please 🙏 consider supporting it by buying me a coffee or so. This aid will help me to dedicate more time to create and developed well design open-source projects.
 
 [![Paypal][paypal-img]][paypal-url]
 [![Ko-Fi][ko-fi-img]][ko-fi-url]
@@ -219,7 +219,6 @@ Developed with ❤️ in Chile 🇨🇱
 <!-- ReactJS -->
 [react-js-img]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
 [react-js-url]: https://reactjs.org/
-
 <!-- Bootstrao -->
 [bootstrap-img]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
 [bootstrap-url]: https://getbootstrap.com
