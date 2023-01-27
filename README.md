@@ -2,6 +2,8 @@
 
 # Buda Prices - ReactJS #
 
+A simple ReactJS web application that fetch data from [Buda API](https://api.buda.com/en/), an online Chilean cryptocurrency exchange market.
+
 ---
 
 <!-- *********************************************************************** -->
@@ -29,7 +31,7 @@
 
 ## About The Project
 
-Simple ReactJS web application that fetch data from [Buda API](https://api.buda.com/en/). The code extract the largest transactions performed in the last 24 hours for each cryptocurrency market. The results are presented in a table.
+The code extract the largest transactions performed in [Buda](https://www.buda.com/) exchange paltform in the last 24 hours for each cryptocurrency market. The results are presented in a table.
 
 <p align="center">
   <img src="images/project-animation.gif" alt="animated" width="75%"/>
@@ -63,7 +65,9 @@ The following technologies were used for the implementation of this project:
 
 ## Getting Started
 
+<!-- ----------------------------------------------------------------------- -->
 <!-- 3.1) Prerequisites -->
+<!-- ----------------------------------------------------------------------- -->
 ### Prerequisites
 
 Node Package Manager(NPM) is required to install and run this application.
@@ -84,8 +88,9 @@ Node Package Manager(NPM) is required to install and run this application.
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
-
+<!-- ----------------------------------------------------------------------- -->
 <!-- 3.2) Installation -->
+<!-- ----------------------------------------------------------------------- -->
 ### Installation
 
 To get a copy of this project and run it in your local environment, follow the steps listed below.
@@ -116,18 +121,32 @@ To get a copy of this project and run it in your local environment, follow the s
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
+<!-- ----------------------------------------------------------------------- -->
 <!-- 3.3) Usage -->
+<!-- ----------------------------------------------------------------------- -->
 ### Usage
 
 After succesfull installation, you will be able to check the WebApp in any browser by visiting the following URL address: [localhost: 3000](http://localhost:3000/)
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
+
 ---
 
 <!-- *********************************************************************** -->
+<!-- V) ACKNOWNLEDGEMENTS -->
+<!-- *********************************************************************** -->
+
+## Acknowledgements
+
+lipsum
+
+---
 
 <!-- *********************************************************************** -->
+<!-- V) CONTACT ME -->
+<!-- *********************************************************************** -->
+
 ## Contact Me
 
 <!-- ![GitHub Follow](https://img.shields.io/github/followers/BigSamu.svg?style=social&label=Follow)
@@ -146,6 +165,10 @@ Samuel Valdes Gutierrez
 
 ---
 
+<!-- *********************************************************************** -->
+<!-- VI) SUPPORT -->
+<!-- *********************************************************************** -->
+
 ## Support
 
 Whether you use this project to learn something or if you just like my work, please consider supporting it by buying me a coffee or so. This aid will help me to dedicate more time to create and developed well design open-source projects.
@@ -156,34 +179,61 @@ Whether you use this project to learn something or if you just like my work, ple
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
+<!-- *********************************************************************** -->
+<!-- VII) LICENSE -->
+<!-- *********************************************************************** -->
+
 ---
 
 ## License
 
 This project is licensed under the terms of the MIT license.
 
->You can check out the full license [here](/Buda_Prices_ReactJS/LICENSE.md)
+>You can check out the full license [here](./LICENSE.md)
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
 ---
 
+<!-- *********************************************************************** -->
+<!-- VIII) FOOTER -->
+<!-- *********************************************************************** -->
+
 <p align="center">
 Developed with ❤️ in Chile 🇨🇱  
 </p>
 
-<!-- MARKDOWN LINKS & IMAGES -->
 
+<!-- *********************************************************************** -->
+<!-- A) MARKDOWN LINKS & IMAGES -->
+<!-- *********************************************************************** -->
+
+<!-- ----------------------------------------------------------------------- -->
+<!-- A.1) Teachnologies -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- 1) Frontend Frameworks and Libraries -->
+
+<!-- ReactJS -->
 [react-js-img]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
 [react-js-url]: https://reactjs.org/
 
-[node-js-img]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
-[node-js-url]: https://nodejs.org
-
+<!-- Bootstrao -->
 [bootstrap-img]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
 [bootstrap-url]: https://getbootstrap.com
 
-<!-- Contact -->
+<!-- 2) Backend Frameworks and Libraries -->
+
+<!-- 3) Development Environments & Tools -->
+
+<!-- NodeJS -->
+[node-js-img]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
+[node-js-url]: https://nodejs.org
+
+<!-- ----------------------------------------------------------------------- -->
+<!-- A.2) Contact -->
+<!-- ----------------------------------------------------------------------- -->
+
 <!-- Gmail -->
 [gmail-img]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
 [gmail-url]: mailto:valdesgutierrez@gmail.com
@@ -196,6 +246,10 @@ Developed with ❤️ in Chile 🇨🇱
 <!-- HackerRank -->
 [hackerrank-img]: https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white
 [hackerrank-url]: https://www.hackerrank.com/BigSamu
+
+<!-- ----------------------------------------------------------------------- -->
+<!-- A.3) Support -->
+<!-- ----------------------------------------------------------------------- -->
 
 <!-- Paypal -->
 [paypal-img]:https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white
