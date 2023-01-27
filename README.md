@@ -173,7 +173,7 @@ Samuel Valdes Gutierrez
 
 ## Support
 
-Whether you use this work to learn something or if you just like my work, please 🙏 consider supporting it by buying me a coffee or so. This aid will help me to dedicate more time to create and developed well design open-source projects.
+Whether you use this work to learn something or if you just like my work, please 🙏 consider supporting it. This aid will help me to dedicate more time to create and developed well design open-source projects.
 
 [![Paypal][paypal-img]][paypal-url]
 [![Ko-Fi][ko-fi-img]][ko-fi-url]
