@@ -55,6 +55,7 @@ The code extract the largest transactions performed in [Buda](https://www.buda.c
 The following technologies are used for the implementation of this project:
 
  [![NodeJS][node-js-img]][node-js-url]
+ [![NPM][npm-img]][npm-url]
  [![ReactJS][react-js-img]][react-js-url]
  [![Bootstrap][bootstrap-img]][bootstrap-url]
 
@@ -73,25 +74,11 @@ The following technologies are used for the implementation of this project:
 <!-- ----------------------------------------------------------------------- -->
 ### Prerequisites
 
-Node Package Manager (NPM) is required to install and run this application.
+`Node.JS` and `Node Package Manager (NPM)` are required for the setup of this web application.
 
-- Check if NPM is already installed in your local environment:
+> Installation instructions [here][install-node-js-and-npm-url].
 
-  ```sh
-  npm --version
-  ```
 
-  _(Example of expected output: 9.4.0)_
-
-- If not, install last version of this package manager:
-
-  ```sh
-  npm install npm@latest -g
-  ```
-
-<p align="right">(<a href="#back-to-top">back to top</a>)</p>
-
-<!-- ----------------------------------------------------------------------- -->
 <!-- 3.2) Installation -->
 <!-- ----------------------------------------------------------------------- -->
 ### Installation
@@ -220,7 +207,8 @@ Developed with ❤️ in Chile 🇨🇱
 <!-- 1) Frontend Frameworks and Libraries -->
 
 <!-- ReactJS -->
-[react-js-img]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
+[react-js-img]: https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge
+
 [react-js-url]: https://reactjs.org/
 <!-- Bootstrao -->
 [bootstrap-img]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
@@ -228,11 +216,14 @@ Developed with ❤️ in Chile 🇨🇱
 
 <!-- 2) Backend Frameworks and Libraries -->
 
-<!-- 3) Development Environments & Tools -->
+<!-- 3) Development Environments & Package Managers -->
 
 <!-- NodeJS -->
 [node-js-img]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
 [node-js-url]: https://nodejs.org
+<!-- NPM -->
+[npm-img]:https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=fff&style=for-the-badge
+[npm-url]: https://www.npmjs.com
 
 <!-- ----------------------------------------------------------------------- -->
 <!-- A.2) Contact -->
@@ -264,3 +255,10 @@ Developed with ❤️ in Chile 🇨🇱
 <!-- Buy Me a Coffee -->
 [buy-me-a-coffee-img]: https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black
 [buy-me-a-coffee-url]: https://www.buymeacoffee.com/BigSamu
+
+<!-- *********************************************************************** -->
+<!-- B) INSTALLATION INSTRUCTIONS ENVIRONMENTS & PACKAGE MANAGERS -->
+<!-- *********************************************************************** -->
+
+[install-node-js-and-npm-url]: https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba
+[install-ruby-and-bundler]: https://gist.github.com/MichaelCurrin/fb758aea4d35e03b9ed093afddf4e7ec
