@@ -1,5 +1,22 @@
 <a name="back-to-top"></a>
 
+<!-- *********************************************************************** -->
+<!-- 0.1) PROJECT SHIELDS -->
+<!-- *********************************************************************** -->
+
+[![Forks][forks-img]][forks-url]
+[![Stars][stars-img]][stars-url]
+[![Watchers][watchers-img]][watchers-url]
+[![License][license-img]][license-url]
+[![Ask Me Anything][ama-img]][ama-url]
+[![Github Follow][github-follow-img]][github-follow-url]
+[![LinkedIn Small][linkedin-img-small]][linkedin-url]
+[![Hackerrank Small][hackerrank-img-small]][linkedin-url]
+
+<!-- *********************************************************************** -->
+<!-- 0.3) PROJECT TITLE -->
+<!-- *********************************************************************** -->
+
 <!-- omit in toc -->
 # Buda Prices - ReactJS #
 
@@ -8,7 +25,7 @@ A simple ReactJS web application that fetch data from [Buda API](https://api.bud
 ---
 
 <!-- *********************************************************************** -->
-<!-- 0) TABLE OF CONTENTS -->
+<!-- 0.2) TABLE OF CONTENTS -->
 <!-- *********************************************************************** -->
 
 <!-- omit in toc -->
@@ -141,8 +158,7 @@ lipsum
 
 ## Contact Me
 
-<!-- ![GitHub Follow](https://img.shields.io/github/followers/BigSamu.svg?style=social&label=Follow)
-![GitHub Star](https://img.shields.io/github/stars/BigSamu?affiliations=OWNER%2CCOLLABORATOR&style=social&label=Star) -->
+
 
 Feel free to contact me if you have any doubt!
 
@@ -208,25 +224,66 @@ Developed with ❤️ in Chile 🇨🇱
 
 <!-- ReactJS -->
 [react-js-img]: https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge
-
 [react-js-url]: https://reactjs.org/
 <!-- Bootstrao -->
 [bootstrap-img]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
-[bootstrap-url]: https://getbootstrap.com
+[bootstrap-url]: https://getbootstrap.com/
 
 <!-- 2) Backend Frameworks and Libraries -->
+<!-- Sinatra Ruby -->
+[ruby-sinatra-img]:(https://img.shields.io/badge/Ruby%20Sinatra-000?logo=rubysinatra&logoColor=fff&style=for-the-badge)
+[ruby-sinatra-url]: https://sinatrarb.com/
+
 
 <!-- 3) Development Environments & Package Managers -->
 
 <!-- NodeJS -->
 [node-js-img]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
-[node-js-url]: https://nodejs.org
+[node-js-url]: https://nodejs.org/
 <!-- NPM -->
 [npm-img]:https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=fff&style=for-the-badge
-[npm-url]: https://www.npmjs.com
+[npm-url]: https://www.npmjs.com/
+<!-- Ruby -->
+[ruby-img]: https://www.ruby-lang.org/
+[ruby-url]: https://www.ruby-lang.org/
+<!-- RubyGems-->
+[ruby-gems-img]: https://img.shields.io/badge/RubyGems-E9573F?logo=rubygems&logoColor=fff&style=for-the-badge
+[ruby-gems-url]: https://rubygems.org/
+
 
 <!-- ----------------------------------------------------------------------- -->
-<!-- A.2) Contact -->
+<!-- A.2) Github Stats -->
+<!-- ----------------------------------------------------------------------- -->
+
+[username]:BigSamu
+[repo-name]: Buda_Prices_ReactJS
+
+
+[forks-img]: https://img.shields.io/github/forks/BigSamu/Buda_Prices_ReactJS.svg
+[forks-url]: https://github.com/BigSamu/Buda_Prices_ReactJS/network/members
+[stars-img]: https://img.shields.io/github/stars/BigSamu/Buda_Prices_ReactJS.svg
+[stars-url]: https://github/BigSamu/Buda_Prices_ReactJS/starsgazers
+[watchers-img]: https://img.shields.io/github/watchers/BigSamu/Buda_Prices_ReactJS.svg
+[watchers-url]: https://github/BigSamu/Buda_Prices_ReactJS/watchers
+[license-img]:https://img.shields.io/github/license/BigSamu/Buda_Prices_ReactJS.svg
+[license-url]: ./LICENSE.md
+[github-follow-img]: https://img.shields.io/github/followers/BigSamu.svg?style=social&label=Follow
+[github-follow-url]: https://github.com/BigSamu?tab=followers
+
+
+<!-- [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt -->
+
+<!-- Contributors -->
+
+<!-- Forks -->
+
+<!-- Stargazers -->
+
+<!-- MIT Lincese -->
+
+<!-- ----------------------------------------------------------------------- -->
+<!-- A.3) Contact -->
 <!-- ----------------------------------------------------------------------- -->
 
 <!-- Gmail -->
@@ -237,13 +294,20 @@ Developed with ❤️ in Chile 🇨🇱
 [twitter-url]: https://twitter.com/BigSamu5
 <!-- LinkedIn -->
 [linkedin-img]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
+[linkedin-img-small]: https://img.shields.io/badge/--linkedin?label=LinkedIn&logo=LinkedIn&style=social
 [linkedin-url]: https://www.linkedin.com/in/samuel-valdes-gutierrez
+
 <!-- HackerRank -->
 [hackerrank-img]: https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white
+[hackerrank-img-small]:https://img.shields.io/badge/--hackerrank?label=HackerRank&logo=hackerrank&style=social
 [hackerrank-url]: https://www.hackerrank.com/BigSamu
 
+<!-- Ask Me Anything -->
+[ama-img]: https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg
+[ama-url]: #contact-me
+
 <!-- ----------------------------------------------------------------------- -->
-<!-- A.3) Support -->
+<!-- A.4) Support -->
 <!-- ----------------------------------------------------------------------- -->
 
 <!-- Paypal -->
@@ -260,5 +324,7 @@ Developed with ❤️ in Chile 🇨🇱
 <!-- B) INSTALLATION INSTRUCTIONS ENVIRONMENTS & PACKAGE MANAGERS -->
 <!-- *********************************************************************** -->
 
+<!-- Node.js and NPM -->
 [install-node-js-and-npm-url]: https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba
+<!-- Ruby, Rubygems and Bundler -->
 [install-ruby-and-bundler]: https://gist.github.com/MichaelCurrin/fb758aea4d35e03b9ed093afddf4e7ec
