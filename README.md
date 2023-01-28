@@ -4,14 +4,11 @@
 <!-- 0.1) PROJECT SHIELDS -->
 <!-- *********************************************************************** -->
 
-[![Forks][forks-img]][forks-url]
-[![Stars][stars-img]][stars-url]
-[![Watchers][watchers-img]][watchers-url]
-[![License][license-img]][license-url]
-[![Ask Me Anything][ama-img]][ama-url]
+
 [![Github Follow][github-follow-img]][github-follow-url]
 [![LinkedIn Small][linkedin-img-small]][linkedin-url]
 [![Hackerrank Small][hackerrank-img-small]][linkedin-url]
+[![Ask Me Anything][ama-img]][ama-url]
 
 <!-- *********************************************************************** -->
 <!-- 0.3) PROJECT TITLE -->
@@ -19,6 +16,11 @@
 
 <!-- omit in toc -->
 # Buda Prices - ReactJS #
+[![License][license-img]][license-url]
+[![Forks][forks-img]][forks-url]
+[![Stars][stars-img]][stars-url]
+[![Watchers][watchers-img]][watchers-url]
+
 
 A simple ReactJS web application that fetch data from [Buda API](https://api.buda.com/en/), an online Chilean cryptocurrency exchange market.
 
@@ -255,32 +257,20 @@ Developed with ❤️ in Chile 🇨🇱
 <!-- A.2) Github Stats -->
 <!-- ----------------------------------------------------------------------- -->
 
-[username]:BigSamu
-[repo-name]: Buda_Prices_ReactJS
-
-
+<!-- Forks -->
 [forks-img]: https://img.shields.io/github/forks/BigSamu/Buda_Prices_ReactJS.svg
 [forks-url]: https://github.com/BigSamu/Buda_Prices_ReactJS/network/members
+<!-- Stargazers -->
 [stars-img]: https://img.shields.io/github/stars/BigSamu/Buda_Prices_ReactJS.svg
 [stars-url]: https://github.com/BigSamu/Buda_Prices_ReactJS/stargazers
+<!-- Watchers -->
 [watchers-img]: https://img.shields.io/github/watchers/BigSamu/Buda_Prices_ReactJS.svg
 [watchers-url]: https://github/BigSamu/Buda_Prices_ReactJS/watchers
+<!-- License -->
 [license-img]:https://img.shields.io/github/license/BigSamu/Buda_Prices_ReactJS.svg
 [license-url]: ./LICENSE.md
 [github-follow-img]: https://img.shields.io/github/followers/BigSamu.svg?style=social&label=Follow
 [github-follow-url]: https://github.com/BigSamu?tab=followers
-
-
-<!-- [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt -->
-
-<!-- Contributors -->
-
-<!-- Forks -->
-
-<!-- Stargazers -->
-
-<!-- MIT Lincese -->
 
 <!-- ----------------------------------------------------------------------- -->
 <!-- A.3) Contact -->
