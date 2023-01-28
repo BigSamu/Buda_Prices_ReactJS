@@ -5,10 +5,11 @@
 <!-- *********************************************************************** -->
 
 
-[![Github Follow][github-follow-img]][github-follow-url]
-[![LinkedIn Small][linkedin-img-small]][linkedin-url]
-[![Hackerrank Small][hackerrank-img-small]][linkedin-url]
-[![Ask Me Anything][ama-img]][ama-url]
+[![Github Follow][github-follow-badge]][github-follow-url]
+[![LinkedIn Small][linkedin-badge-small]][linkedin-url]
+[![Hackerrank Small][hackerrank-badge-small]][linkedin-url]
+[![Ask Me Anything][ama-badge]][ama-url]
+[![Say Thanks!][say-thanks-badge]][say-thanks-url]
 
 ----
 
@@ -21,10 +22,10 @@
 
 A simple ReactJS web application that fetch data from [Buda API](https://api.buda.com/en/), an online Chilean cryptocurrency exchange market.
 
-[![License][license-img]][license-url]
-[![Forks][forks-img]][forks-url]
-[![Stars][stars-img]][stars-url]
-[![Watchers][watchers-img]][watchers-url]
+[![License][license-badge]][license-url]
+[![Forks][forks-badge]][forks-url]
+[![Stars][stars-badge]][stars-url]
+[![Watchers][watchers-badge]][watchers-url]
 
 ---
 
@@ -75,10 +76,10 @@ The code extract the largest transactions performed in [Buda](https://www.buda.c
 
 The following technologies are used for the implementation of this project:
 
- [![NodeJS][node-js-img]][node-js-url]
- [![NPM][npm-img]][npm-url]
- [![ReactJS][react-js-img]][react-js-url]
- [![Bootstrap][bootstrap-img]][bootstrap-url]
+ [![NodeJS][node-js-badge]][node-js-url]
+ [![NPM][npm-badge]][npm-url]
+ [![ReactJS][react-js-badge]][react-js-url]
+ [![Bootstrap][bootstrap-badge]][bootstrap-url]
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
@@ -95,10 +96,11 @@ The following technologies are used for the implementation of this project:
 <!-- ----------------------------------------------------------------------- -->
 ### Prerequisites
 
-`Node.JS` and `Node Package Manager (NPM)` are required for the setup of this web application.
+`Node.js` and `Node Package Manager (NPM)` are required for the setup of this web application.
 
 > Installation instructions [here][install-node-js-and-npm-url].
 
+> **NOTE:**  at the momment of creation of this project  `Node.js v18.6.0` and `NPM v9.4.0` were used.
 
 <!-- 3.2) Installation -->
 <!-- ----------------------------------------------------------------------- -->
@@ -168,10 +170,10 @@ Feel free to contact me if you have any doubt!
 
 Samuel Valdes Gutierrez
 
-[![Gmail][gmail-img]][gmail-url]
-[![Twitter][twitter-img]][twitter-url]
-[![LinkedIn][linkedin-img]][linkedin-url]
-[![HackerRank][hackerrank-img]][hackerrank-url]
+[![Gmail][gmail-badge]][gmail-url]
+[![Twitter][twitter-badge]][twitter-url]
+[![LinkedIn][linkedin-badge]][linkedin-url]
+[![HackerRank][hackerrank-badge]][hackerrank-url]
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
@@ -185,9 +187,9 @@ Samuel Valdes Gutierrez
 
 Whether you use this work to learn something or if you just like my work, please 🙏 consider supporting it. This aid will help me to dedicate more time to create and developed well design open-source projects.
 
-[![Paypal][paypal-img]][paypal-url]
-[![Ko-Fi][ko-fi-img]][ko-fi-url]
-[![BuyMeACoffe][buy-me-a-coffee-img]][buy-me-a-coffee-url]
+[![Paypal][paypal-badge]][paypal-url]
+[![Ko-Fi][ko-fi-badge]][ko-fi-url]
+[![BuyMeACoffe][buy-me-a-coffee-badge]][buy-me-a-coffee-url]
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
@@ -227,31 +229,31 @@ Developed with ❤️ in Chile 🇨🇱
 <!-- 1) Frontend Frameworks and Libraries -->
 
 <!-- ReactJS -->
-[react-js-img]: https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge
+[react-js-badge]: https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge
 [react-js-url]: https://reactjs.org/
 <!-- Bootstrao -->
-[bootstrap-img]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap-badge]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
 [bootstrap-url]: https://getbootstrap.com/
 
 <!-- 2) Backend Frameworks and Libraries -->
 <!-- Sinatra Ruby -->
-[ruby-sinatra-img]:(https://img.shields.io/badge/Ruby%20Sinatra-000?logo=rubysinatra&logoColor=fff&style=for-the-badge)
+[ruby-sinatra-badge]:(https://img.shields.io/badge/Ruby%20Sinatra-000?logo=rubysinatra&logoColor=fff&style=for-the-badge)
 [ruby-sinatra-url]: https://sinatrarb.com/
 
 
 <!-- 3) Development Environments & Package Managers -->
 
 <!-- NodeJS -->
-[node-js-img]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
+[node-js-badge]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
 [node-js-url]: https://nodejs.org/
 <!-- NPM -->
-[npm-img]:https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=fff&style=for-the-badge
+[npm-badge]:https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=fff&style=for-the-badge
 [npm-url]: https://www.npmjs.com/
 <!-- Ruby -->
-[ruby-img]: https://www.ruby-lang.org/
+[ruby-badge]: https://www.ruby-lang.org/
 [ruby-url]: https://www.ruby-lang.org/
 <!-- RubyGems-->
-[ruby-gems-img]: https://img.shields.io/badge/RubyGems-E9573F?logo=rubygems&logoColor=fff&style=for-the-badge
+[ruby-gems-badge]: https://img.shields.io/badge/RubyGems-E9573F?logo=rubygems&logoColor=fff&style=for-the-badge
 [ruby-gems-url]: https://rubygems.org/
 
 
@@ -260,18 +262,18 @@ Developed with ❤️ in Chile 🇨🇱
 <!-- ----------------------------------------------------------------------- -->
 
 <!-- Forks -->
-[forks-img]: https://img.shields.io/github/forks/BigSamu/Buda_Prices_ReactJS.svg
+[forks-badge]: https://img.shields.io/github/forks/BigSamu/Buda_Prices_ReactJS.svg
 [forks-url]: https://github.com/BigSamu/Buda_Prices_ReactJS/network/members
 <!-- Stargazers -->
-[stars-img]: https://img.shields.io/github/stars/BigSamu/Buda_Prices_ReactJS.svg
+[stars-badge]: https://img.shields.io/github/stars/BigSamu/Buda_Prices_ReactJS.svg
 [stars-url]: https://github.com/BigSamu/Buda_Prices_ReactJS/stargazers
 <!-- Watchers -->
-[watchers-img]: https://img.shields.io/github/watchers/BigSamu/Buda_Prices_ReactJS.svg
+[watchers-badge]: https://img.shields.io/github/watchers/BigSamu/Buda_Prices_ReactJS.svg
 [watchers-url]: https://github/BigSamu/Buda_Prices_ReactJS/watchers
 <!-- License -->
-[license-img]:https://img.shields.io/github/license/BigSamu/Buda_Prices_ReactJS.svg
+[license-badge]:https://img.shields.io/github/license/BigSamu/Buda_Prices_ReactJS.svg
 [license-url]: ./LICENSE.md
-[github-follow-img]: https://img.shields.io/github/followers/BigSamu.svg?style=social&label=Follow
+[github-follow-badge]: https://img.shields.io/github/followers/BigSamu.svg?style=social&label=Follow
 [github-follow-url]: https://github.com/BigSamu?tab=followers
 
 <!-- ----------------------------------------------------------------------- -->
@@ -279,37 +281,39 @@ Developed with ❤️ in Chile 🇨🇱
 <!-- ----------------------------------------------------------------------- -->
 
 <!-- Gmail -->
-[gmail-img]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
+[gmail-badge]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
 [gmail-url]: mailto:valdesgutierrez@gmail.com
 <!-- Twitter -->
-[twitter-img]: https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white
+[twitter-badge]: https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white
 [twitter-url]: https://twitter.com/BigSamu5
 <!-- LinkedIn -->
-[linkedin-img]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
-[linkedin-img-small]: https://img.shields.io/badge/--linkedin?label=LinkedIn&logo=LinkedIn&style=social
+[linkedin-badge]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
+[linkedin-badge-small]: https://img.shields.io/badge/--linkedin?label=LinkedIn&logo=LinkedIn&style=social
 [linkedin-url]: https://www.linkedin.com/in/samuel-valdes-gutierrez
-
 <!-- HackerRank -->
-[hackerrank-img]: https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white
-[hackerrank-img-small]:https://img.shields.io/badge/--hackerrank?label=HackerRank&logo=hackerrank&style=social
+[hackerrank-badge]: https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white
+[hackerrank-badge-small]:https://img.shields.io/badge/--hackerrank?label=HackerRank&logo=hackerrank&style=social
 [hackerrank-url]: https://www.hackerrank.com/BigSamu
-
 <!-- Ask Me Anything -->
-[ama-img]: https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg
+[ama-badge]: https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg
 [ama-url]: #contact-me
+<!-- Say Thanks -->
+[say-thanks-badge]: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
+[say-thanks-url]: https://saythanks.io/to/BigSamu
+
 
 <!-- ----------------------------------------------------------------------- -->
 <!-- A.4) Support -->
 <!-- ----------------------------------------------------------------------- -->
 
 <!-- Paypal -->
-[paypal-img]:https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white
+[paypal-badge]:https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white
 [paypal-url]: https://www.paypal.com/paypalme/BigSamu87/2
 <!-- Ko-Fi -->
-[ko-fi-img]:https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white
+[ko-fi-badge]:https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white
 [ko-fi-url]: https://ko-fi.com/BigSamu
 <!-- Buy Me a Coffee -->
-[buy-me-a-coffee-img]: https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black
+[buy-me-a-coffee-badge]: https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black
 [buy-me-a-coffee-url]: https://www.buymeacoffee.com/BigSamu
 
 <!-- *********************************************************************** -->
