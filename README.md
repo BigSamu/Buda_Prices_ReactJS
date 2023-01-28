@@ -262,7 +262,7 @@ Developed with ❤️ in Chile 🇨🇱
 [forks-img]: https://img.shields.io/github/forks/BigSamu/Buda_Prices_ReactJS.svg
 [forks-url]: https://github.com/BigSamu/Buda_Prices_ReactJS/network/members
 [stars-img]: https://img.shields.io/github/stars/BigSamu/Buda_Prices_ReactJS.svg
-[stars-url]: https://github/BigSamu/Buda_Prices_ReactJS/stargazers
+[stars-url]: https://github.com/BigSamu/Buda_Prices_ReactJS/stargazers
 [watchers-img]: https://img.shields.io/github/watchers/BigSamu/Buda_Prices_ReactJS.svg
 [watchers-url]: https://github/BigSamu/Buda_Prices_ReactJS/watchers
 [license-img]:https://img.shields.io/github/license/BigSamu/Buda_Prices_ReactJS.svg
