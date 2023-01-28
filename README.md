@@ -1,7 +1,7 @@
 <a name="back-to-top"></a>
 
 <!-- *********************************************************************** -->
-<!-- 0.1) PROJECT SHIELDS -->
+<!-- 0.1) INTRO SHIELDS -->
 <!-- *********************************************************************** -->
 
 
@@ -10,19 +10,21 @@
 [![Hackerrank Small][hackerrank-img-small]][linkedin-url]
 [![Ask Me Anything][ama-img]][ama-url]
 
+----
+
 <!-- *********************************************************************** -->
 <!-- 0.3) PROJECT TITLE -->
 <!-- *********************************************************************** -->
 
 <!-- omit in toc -->
 # Buda Prices - ReactJS #
+
+A simple ReactJS web application that fetch data from [Buda API](https://api.buda.com/en/), an online Chilean cryptocurrency exchange market.
+
 [![License][license-img]][license-url]
 [![Forks][forks-img]][forks-url]
 [![Stars][stars-img]][stars-url]
 [![Watchers][watchers-img]][watchers-url]
-
-
-A simple ReactJS web application that fetch data from [Buda API](https://api.buda.com/en/), an online Chilean cryptocurrency exchange market.
 
 ---
 
