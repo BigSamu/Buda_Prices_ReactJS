@@ -267,7 +267,7 @@ Developed with ❤️ in Chile 🇨🇱
 [stars-url]: https://github.com/BigSamu/Buda_Prices_ReactJS/stargazers
 <!-- Watchers -->
 [watchers-badge]: https://img.shields.io/github/watchers/BigSamu/Buda_Prices_ReactJS.svg
-[watchers-url]: https://github/BigSamu/Buda_Prices_ReactJS/watchers
+[watchers-url]: https://github.com/BigSamu/Buda_Prices_ReactJS/watchers
 <!-- License -->
 [license-badge]:https://img.shields.io/github/license/BigSamu/Buda_Prices_ReactJS.svg
 [license-url]: ./LICENSE.md
