@@ -98,7 +98,7 @@ The following technologies are used for the implementation of this project:
 
 > Installation instructions [here][install-node-js-and-npm-url].
 
-> **NOTE:**  at the momment of creation of this project  `Node.js v18.6.0` and `NPM v9.4.0` were used.
+> **NOTE:**  at the momment of the implentation of this project  `Node.js v18.6.0` and `npm v9.4.0` were used.
 
 <!-- 3.2) Installation -->
 <!-- ----------------------------------------------------------------------- -->
@@ -137,7 +137,7 @@ To get a copy of this project and run it in your local environment, follow the s
 <!-- ----------------------------------------------------------------------- -->
 ### Usage
 
-After succesfull installation, you will be able to check the WebApp in any browser by visiting the following URL address: [localhost: 3000](http://localhost:3000/)
+After succesfull installation, you will be able to check the WebApp in any browser by visiting the following URL address: [localhost:3000](http://localhost:3000/)
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
@@ -161,8 +161,6 @@ lipsum
 <!-- *********************************************************************** -->
 
 ## Contact Me
-
-
 
 Feel free to contact me if you have any doubt!
 
