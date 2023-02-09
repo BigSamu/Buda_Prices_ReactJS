@@ -253,17 +253,18 @@ Developed with ❤️ in Chile 🇨🇱
 <!-- 2) Frontend Frameworks and Libraries -->
 
 <!-- ReactJS -->
-
 [react-js-badge]: https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge
 [react-js-url]: https://reactjs.org/
 
 <!-- Bootstrap -->
-
 [bootstrap-badge]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
 [bootstrap-url]: https://getbootstrap.com/
 
-<!-- Jinja -->
+<!-- JQuery -->
+[jquery-badge]: https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=fff&style=for-the-badge
+[jquery-url]:https://jquery.com/
 
+<!-- Jinja -->
 [jinja-badge]: https://img.shields.io/badge/Jinja-B41717?logo=jinja&logoColor=fff&style=for-the-badge
 [jinja-url]: https://jinja.palletsprojects.com/
 
