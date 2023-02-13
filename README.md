@@ -18,7 +18,7 @@
 
 # Buda Prices - ReactJS
 
-A simple ReactJS web application that fetch data from [Buda API](https://api.buda.com/en/), an online Chilean cryptocurrency exchange market.
+A simple ReactJS web application that fetches data from [Buda API](https://api.buda.com/en/), an online Chilean cryptocurrency exchange market.
 
 [![License][license-badge]][license-url]
 [![Forks][forks-badge]][forks-url]
@@ -57,7 +57,7 @@ A simple ReactJS web application that fetch data from [Buda API](https://api.bud
 
 ## About The Project
 
-The code extract the largest transactions performed in [Buda](https://www.buda.com/) exchange paltform in the last 24 hours for each cryptocurrency market. The results are presented in a table.
+The code extracts the largest transactions performed in the [Buda](https://www.buda.com/) exchange platform in the last 24 hours for each cryptocurrency market. The results are presented in a table.
 
 <p align="center">
   <img src="images/project-animation.gif" alt="animated" width="75%"/>
@@ -253,18 +253,22 @@ Developed with ❤️ in Chile 🇨🇱
 <!-- 2) Frontend Frameworks and Libraries -->
 
 <!-- ReactJS -->
+
 [react-js-badge]: https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge
 [react-js-url]: https://reactjs.org/
 
 <!-- Bootstrap -->
+
 [bootstrap-badge]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
 [bootstrap-url]: https://getbootstrap.com/
 
 <!-- JQuery -->
+
 [jquery-badge]: https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=fff&style=for-the-badge
-[jquery-url]:https://jquery.com/
+[jquery-url]: https://jquery.com/
 
 <!-- Jinja -->
+
 [jinja-badge]: https://img.shields.io/badge/Jinja-B41717?logo=jinja&logoColor=fff&style=for-the-badge
 [jinja-url]: https://jinja.palletsprojects.com/
 
