@@ -18,7 +18,7 @@
 
 # Buda Prices - ReactJS
 
-A simple ReactJS web application that fetches data from [Buda API](https://api.buda.com/en/), an online Chilean cryptocurrency exchange market.
+A simple educational ReactJS web application that fetches data from [Buda API](https://api.buda.com/en/), an online Chilean cryptocurrency exchange market.
 
 [![License][license-badge]][license-url]
 [![Forks][forks-badge]][forks-url]
